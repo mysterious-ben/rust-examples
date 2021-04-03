@@ -1,0 +1,11 @@
+[package]
+name = "rust-examples"
+version = "0.1.0"
+authors = ["Mysterious Ben <datascience@tuta.io>"]
+edition = "2018"
+
+[[bin]]
+name = "hello"
+path = "src/bin/hello.rs"
+
+[dependencies]
